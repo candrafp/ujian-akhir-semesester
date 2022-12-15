@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="../menu/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script src="jquery.js"></script>
+</head>
+ 
+<body>
+    <header>
+        <div class="logo">Shoes <i>Store</i></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="../MENU/produc.html" >Products</a></li>
+                <li><a href="../MENU/about us.html">About us</a></li>
+                <li><a href="../MENU/register.html">Register</a></li>
+                <li><a href="../MENU/login.html" class="active">Login</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3><i>Compass </i>Brand</h3>
+            <span> kuat & elegan </span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, dignissimos. Quibusdam sint sed velit praesentium porro, eaque unde illum nulla rem quaerat, ratione maiores repellendus numquam nobis asperiores laudantium? Natus.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <h3>
+
+        </h3>
+
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function () {
+                $('nav').toggleClass('active');
+            })
+        })
+    </script>
+</body>
+
+</html>
